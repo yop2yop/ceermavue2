@@ -86,10 +86,11 @@ export default {
 
   methods: {
     changelanguage(lang) {
-      this.$i18n.locale = lang
-      this.$router.push({
-        params: { lang: lang }
-      })
+      if (this.$i18n.locale != lang) {
+        this.$i18n.locale = lang
+        this.$router.push({
+          params: { lang: lang }})
+      }
     }
 
   }
