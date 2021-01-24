@@ -1,0 +1,8 @@
+{
+    "message": "Hola i18n !!",
+    "nav": {
+      "home": "Mi inicios",
+      "tutorial" : "Tutorial",
+      "getstarted" : "Empezar"
+    }
+  }

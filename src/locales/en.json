@@ -1,3 +1,8 @@
 {
-  "message": "hello i18n !!"
+  "message": "Hello i18n !!",
+  "nav": {
+    "home": "Home",
+    "tutorial" : "Tutorial",
+    "getstarted" : "Get Started"
+  }
 }

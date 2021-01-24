@@ -45,17 +45,22 @@
           src="./assets/logo_ceerma_text.png"
           width="100"
         />
+      
       </div>
-
+      <div style="font-size:17px">
+        <v-btn plain icon v-on:click="changelanguage('br')" > <flag iso="br" /> </v-btn>	
+        <v-btn plain icon v-on:click.prevent="changelanguage('en')"> <flag iso="us" /> </v-btn>
+        <v-btn plain icon v-on:click.prevent="changelanguage('es')"> <flag iso="cl" /> </v-btn>
+      </div>    
+      
       <v-spacer></v-spacer>
 
       <v-toolbar-items>  
-        <v-btn target="_blank" v-color="white" text>
-          <router-link to="/" class="white--text">Home</router-link>
-          <v-icon>mdi-open-in-new</v-icon>
+        <v-btn target="_blank"  text>
+          <router-link :to="`/${$i18n.locale}`" class="white--text"> {{ $t('nav.home') }}  </router-link>
         </v-btn>
-        <v-btn target="_blank" v-color="white" text>
-          <router-link to="/about" class="white--text">About</router-link>
+        <v-btn target="_blank"  text>
+          <router-link :to="`/${$i18n.locale}/about`" class="white--text">About</router-link>
         </v-btn>
       </v-toolbar-items>
     </v-app-bar>
@@ -64,9 +69,11 @@
       <router-view/>
     </v-main>
   </v-app>
-</template>
+</template> 
 
 <script>
+
+
 
 export default {
   name: 'App',
@@ -75,5 +82,16 @@ export default {
   data: () => ({
     //
   }),
+
+
+  methods: {
+    changelanguage(lang) {
+      this.$i18n.locale = lang
+      this.$router.push({
+        params: { lang: lang }
+      })
+    }
+
+  }
 };
 </script>
