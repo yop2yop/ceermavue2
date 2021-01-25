@@ -1,10 +1,13 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-
+    
+    <h1>  Get Started  </h1>
     <div class="text-center">
+    <p> {{ $t('getstarted.firstparagraph') }}  </p> 
+      
+    <p> {{ $t('getstarted.secondparagraph') }}  </p> 
 
-      s
+    <p> {{ $t('getstarted.thirdparagraph') }}  </p> 
     </div>
   </div>
 

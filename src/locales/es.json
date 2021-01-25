@@ -4,5 +4,20 @@
     "home": " nav.home ",
     "tutorial" : " nav.tutorial",
     "getstarted" : " nav.getstarted"
+  },
+  "tutorial" : {
+    "firstparagraph" : "tutorial.firstparagraph",
+    "secondparagraph" : "tutorial.secondparagraph",
+    "thirdparagraph" : "tutorial.thirdparagraph",
+    "btn":{
+      "run":"tutorial.btn.run",
+      "connect":"tutorial.btn.connect",
+      "shutdown":"tutorial.btn.shutdown"
+    }
+  },
+  "getstarted" : {
+    "firstparagraph" : "getstarted.firstparagraph",
+    "secondparagraph" : "getstarted.secondparagraph",
+    "thirdparagraph" : "getstarted.thirdparagraph"
   }
 }

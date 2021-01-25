@@ -60,7 +60,7 @@
           <router-link :to="`/${$i18n.locale}`" class="white--text"> {{ $t('nav.home') }}  </router-link>
         </v-btn>
         <v-btn target="_blank"  text>
-          <router-link :to="`/${$i18n.locale}/about`" class="white--text">{{ $t('nav.tutorial') }}</router-link>
+          <router-link :to="`/${$i18n.locale}/tutorial`" class="white--text">{{ $t('nav.tutorial') }}</router-link>
         </v-btn>
         <v-btn target="_blank"  text>
           <router-link :to="`/${$i18n.locale}/getstarted`" class="white--text"> {{ $t('nav.getstarted') }}</router-link>

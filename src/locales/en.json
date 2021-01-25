@@ -4,5 +4,20 @@
     "home": "Home",
     "tutorial" : "Tutorial",
     "getstarted" : "Get Started"
+  },
+  "tutorial" : {
+    "firstparagraph" : "To run your project locally, on your own machine, you need to have DLHub Gateway installed on your machine. Please find it on PYPI. Open a new command-line console in your computer, and run the DLHub Gateway using the following command:",
+    "secondparagraph" : "dlhub-gateway --KernelGatewayApp.allow_origin='*' --KernelGatewayApp.allow_headers='*' --KernelGatewayApp.allow_methods='*'",
+    "thirdparagraph" : "You can continue without connecting to the DLHub gateway, but in this case the app will not be able to run the codes, and it only works as a code generator.",
+    "btn":{
+      "run":"Run Code",
+      "connect":"Connect kernel",
+      "shutdown":"Shutdown kernel"
+    }
+  },
+  "getstarted" : {
+    "firstparagraph" : "getstarted.firstparagraph",
+    "secondparagraph" : "getstarted.secondparagraph",
+    "thirdparagraph" : "getstarted.thirdparagraph"
   }
 }

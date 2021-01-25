@@ -1,8 +1,24 @@
 {
     "message": "Hello i18n !!",
     "nav": {
-      "home": "iniciosos",
+      "home": "Pagina Inicial",
       "tutorial" : "Tutorial",
-      "getstarted" : "Get Started"
+      "getstarted" : "Iniciar"
+    },
+    "tutorial" : {
+      "firstparagraph" : "tutorial.firstparagraph",
+      "secondparagraph" : "tutorial.secondparagraph",
+      "thirdparagraph" : "tutorial.thirdparagraph",
+      "btn":{
+        "run":"Executar Código",
+        "connect":"Conectar kernel",
+        "shutdown":"Desligar kernel" 
+      }
+    },
+    "getstarted" : {
+      "firstparagraph" : "getstarted.firstparagraph",
+      "secondparagraph" : "getstarted.secondparagraph",
+      "thirdparagraph" : "getstarted.thirdparagraph"
     }
-}
+  }
+  
